@@ -147,9 +147,8 @@ export function RazorpayPayment({
       <button
         onClick={handlePayment}
         disabled={isLoading}
-        className={`w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold rounded-xl shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 transition-all hover:-translate-y-0.5 active:translate-y-0 text-sm uppercase tracking-wider flex items-center justify-center gap-2 ${
-          isLoading ? "opacity-70 cursor-not-allowed" : ""
-        }`}
+        className={`w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold rounded-xl shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 transition-all hover:-translate-y-0.5 active:translate-y-0 text-sm uppercase tracking-wider flex items-center justify-center gap-2 ${isLoading ? "opacity-70 cursor-not-allowed" : ""
+          }`}
       >
         {isLoading ? (
           <>
